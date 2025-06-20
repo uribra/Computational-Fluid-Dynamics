@@ -14,20 +14,14 @@ The simulation is implemented in Python and visualized through velocity fields, 
 
 ├── lid_cavity/
 
-&nbsp;&nbsp;&nbsp;&nbsp;│ ├── init.py
-
-&nbsp;&nbsp;&nbsp;&nbsp;│ ├── AnimationConfig.py # Animation settings for matplotlib
-
-&nbsp;&nbsp;&nbsp;&nbsp;│ ├── diff_operators.py # Central difference, Laplacian, divergence, curl
-
-&nbsp;&nbsp;&nbsp;&nbsp;│ ├── FramePlots.py # Functions for plotting velocity and streamlines
-
-&nbsp;&nbsp;&nbsp;&nbsp;│ ├── GridConstr.py # Grid generation
-
- &nbsp;&nbsp;&nbsp;&nbsp; │ ├── PlotConfig.py # Plotting configuration
-
-&nbsp;&nbsp;&nbsp;&nbsp; │ ├── SimulConfig.py # Simulation parameter configuration
-&nbsp;&nbsp;&nbsp;&nbsp; │ ├── SimulResult.py # Stores and processes simulation data
+&nbsp;&nbsp;&nbsp;&nbsp;│ ├── init.py<br>
+&nbsp;&nbsp;&nbsp;&nbsp;│ ├── AnimationConfig.py # Animation settings for matplotlib<br>
+&nbsp;&nbsp;&nbsp;&nbsp;│ ├── diff_operators.py # Central difference, Laplacian, divergence, curl<br>
+&nbsp;&nbsp;&nbsp;&nbsp;│ ├── FramePlots.py # Functions for plotting velocity and streamlines<br>
+&nbsp;&nbsp;&nbsp;&nbsp;│ ├── GridConstr.py # Grid generation<br>
+&nbsp;&nbsp;&nbsp;&nbsp;│ ├── PlotConfig.py # Plotting configuration<br>
+&nbsp;&nbsp;&nbsp;&nbsp;│ ├── SimulConfig.py # Simulation parameter configuration<br>
+&nbsp;&nbsp;&nbsp;&nbsp;│ ├── SimulResult.py # Stores and processes simulation data<br>
 
 └── Results/ # Stores visulaization as .mp4
 
