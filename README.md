@@ -12,13 +12,18 @@ The simulation is implemented in Python and visualized through velocity fields, 
 
 ├── main.ipynb # Jupyter Notebook to run the simulation
 
-├── diff_operators.py # Numerical differentiation operators
-
-├── AnimationConfig.py # Configuration for animation settings
-
-├── FramePlots.py # Frame plotting utilities (velocity, streamlines)
-
-├── lid_cavity/ # (Expected) Core simulation modules: SimulConfig, GridConstr, SimulResult, PlotConfig
+├── main.ipynb # Jupyter Notebook to run the simulation
+├── lid_cavity/
+│ ├── init.py
+│ ├── AnimationConfig.py # Animation settings for matplotlib
+│ ├── diff_operators.py # Central difference, Laplacian, divergence, curl
+│ ├── FramePlots.py # Functions for plotting velocity and streamlines
+│ ├── GridConstr.py # Grid generation (assumed)
+│ ├── PlotConfig.py # Plotting configuration
+│ ├── SimulConfig.py # Simulation parameter configuration
+│ ├── SimulResult.py # Stores and processes simulation data
+└── examples/
+└── velocity_field.png # (Optional) Example output
 
 
 ---
