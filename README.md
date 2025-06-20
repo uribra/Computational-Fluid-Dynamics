@@ -33,12 +33,8 @@ The simulation is implemented in Python and visualized through velocity fields, 
 
 The solver addresses the incompressible Navier-Stokes equations:
 
-\[
-\frac{\partial \mathbf{u}}{\partial t} + (\mathbf{u} \cdot \nabla)\mathbf{u} = -\nabla p + \nu \nabla^2 \mathbf{u}
-\]
-\[
-\nabla \cdot \mathbf{u} = 0
-\]
+∂u/∂t + (u · ∇)u = -∇p + ν ∇²u
+∇ · u = 0
 
 - The domain is a square cavity.
 - The top lid moves horizontally, inducing flow.
