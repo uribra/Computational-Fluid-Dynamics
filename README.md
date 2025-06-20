@@ -10,10 +10,8 @@ The simulation is implemented in Python and visualized through velocity fields, 
 
 ## 📁 Repository Structure
 
-├── main.ipynb # Jupyter Notebook to run the simulation
-
-├── lid_cavity/
-
+├── main.ipynb # Jupyter Notebook to run the simulation<br>
+├── lid_cavity/<br>
 &nbsp;&nbsp;&nbsp;&nbsp;│ ├── init.py<br>
 &nbsp;&nbsp;&nbsp;&nbsp;│ ├── AnimationConfig.py # Animation settings for matplotlib<br>
 &nbsp;&nbsp;&nbsp;&nbsp;│ ├── diff_operators.py # Central difference, Laplacian, divergence, curl<br>
@@ -22,8 +20,7 @@ The simulation is implemented in Python and visualized through velocity fields, 
 &nbsp;&nbsp;&nbsp;&nbsp;│ ├── PlotConfig.py # Plotting configuration<br>
 &nbsp;&nbsp;&nbsp;&nbsp;│ ├── SimulConfig.py # Simulation parameter configuration<br>
 &nbsp;&nbsp;&nbsp;&nbsp;│ ├── SimulResult.py # Stores and processes simulation data<br>
-
-└── Results/ # Stores visulaization as .mp4
+└── Results/ # Stores visulaization as .mp4<br>
 
 
 
