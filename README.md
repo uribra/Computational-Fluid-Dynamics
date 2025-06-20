@@ -14,11 +14,11 @@ The simulation is implemented in Python and visualized through velocity fields, 
 
 ├── lid_cavity/
 
-  │ ├── init.py
+&nbsp;&nbsp;&nbsp;&nbsp;│ ├── init.py
 
-  │ ├── AnimationConfig.py # Animation settings for matplotlib
+&nbsp;&nbsp;&nbsp;&nbsp;│ ├── AnimationConfig.py # Animation settings for matplotlib
 
-  │ ├── diff_operators.py # Central difference, Laplacian, divergence, curl
+&nbsp;&nbsp;&nbsp;&nbsp;│ ├── diff_operators.py # Central difference, Laplacian, divergence, curl
 
   │ ├── FramePlots.py # Functions for plotting velocity and streamlines
 
