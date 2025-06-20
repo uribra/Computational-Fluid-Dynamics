@@ -20,15 +20,14 @@ The simulation is implemented in Python and visualized through velocity fields, 
 
 &nbsp;&nbsp;&nbsp;&nbsp;│ ├── diff_operators.py # Central difference, Laplacian, divergence, curl
 
-  │ ├── FramePlots.py # Functions for plotting velocity and streamlines
+&nbsp;&nbsp;&nbsp;&nbsp;│ ├── FramePlots.py # Functions for plotting velocity and streamlines
 
-  │ ├── GridConstr.py # Grid generation
+&nbsp;&nbsp;&nbsp;&nbsp;│ ├── GridConstr.py # Grid generation
 
-  │ ├── PlotConfig.py # Plotting configuration
+ &nbsp;&nbsp;&nbsp;&nbsp; │ ├── PlotConfig.py # Plotting configuration
 
-  │ ├── SimulConfig.py # Simulation parameter configuration
-
-  │ ├── SimulResult.py # Stores and processes simulation data
+&nbsp;&nbsp;&nbsp;&nbsp; │ ├── SimulConfig.py # Simulation parameter configuration
+&nbsp;&nbsp;&nbsp;&nbsp; │ ├── SimulResult.py # Stores and processes simulation data
 
 └── Results/ # Stores visulaization as .mp4
 
